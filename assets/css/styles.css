@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Oswald&family=Roboto:wght@300&display=swap');
 
 body {
-    margin: 5 auto;
+    margin: 0 auto;
 }
 
 header {
@@ -60,5 +60,51 @@ nav a {
 }
 
 nav li:hover {
-    transform: scale(1.04);
+    transform: scale(1.1);
+}
+
+/* Top Image */
+
+#top-image-outer {
+    height: 600px;
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+}
+
+#cover-text, #cover-text h2 {
+    color: rgb(255, 255, 255);
+}
+
+#top-image {
+    height: 600px;
+    width: 100%;
+    background: url("../images/top-image.jpeg") no-repeat center center;
+    
+    animation-name: top-zoom;
+    animation-duration: 5s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes top-zoom {
+    from {
+        transform:  scale(1);
+    }
+    tp {
+        transform: scale(1.06);
+    }
+}
+
+#cover-text {
+    font-size: 100%;
+    font-family: oswald, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    width: 300px;
+    height: 200px;
+    padding: 40px 0 0 10px;
+    background-color: rgba(128, 66, 49, 0.736);
+    bottom: 50%;
+    right: 50%;
+    position: absolute;
 }
