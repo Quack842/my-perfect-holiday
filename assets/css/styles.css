@@ -49,6 +49,7 @@ nav li {
     list-style: none;
     display: inline-block;
     padding: 0 5px;
+    transition: .2s all ease-in-out;
 }
 
 nav a {
@@ -56,13 +57,8 @@ nav a {
     font-size: 1.5em;
     color: rgb(60, 60, 60) ;
     font-family: Roboto, sans-serif;
-    transition: .2s all ease-in-out;
 }
 
-nav a:hover {
-    text-decoration: none;
-    font-size: 1.5em;
-    color: rgb(60, 60, 60) ;
-    font-family: Roboto, sans-serif;
-    transform: scale(1.1);
+nav li:hover {
+    transform: scale(1.04);
 }
