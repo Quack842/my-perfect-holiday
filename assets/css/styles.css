@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald&family=Roboto:wght@300&display=swap');
+
+body {
+    margin: 5 auto;
+}
+
+header {
+    margin: 0 auto;
+    text-align: center;
+}
+
+header div {
+    display: inline-block;
+}
+
+#africa-svg {
+    height: 55px;
+    width: auto;
+}
+
+#logo-div {
+    width: 100%;
+    font-size: 30px;
+}
+
+#logo-text {
+    text-align: left;
+}
+
+div p {
+    margin: 0;
+}
+
+div span {
+    color: blue;
+}
+
+#active {
+    text-decoration: underline;
+    color: rgb(21, 21, 21);
+    font-weight: bold;
+}
+
+nav {
+    width: 100%;
+}
+
+nav li {
+    list-style: none;
+    display: inline-block;
+    padding: 0 5px;
+}
+
+nav a {
+    text-decoration: none;
+    font-size: 1.5em;
+    color: rgb(60, 60, 60) ;
+    font-family: Roboto, sans-serif;
+    transition: .2s all ease-in-out;
+}
+
+nav a:hover {
+    text-decoration: none;
+    font-size: 1.5em;
+    color: rgb(60, 60, 60) ;
+    font-family: Roboto, sans-serif;
+    transform: scale(1.1);
+}
