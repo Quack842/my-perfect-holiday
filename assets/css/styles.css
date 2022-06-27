@@ -32,12 +32,12 @@ div p {
 }
 
 div span {
-    color: blue;
+    color: rgb(0, 95, 183);
 }
 
 #active {
     text-decoration: underline;
-    color: rgb(21, 21, 21);
+    color: rgb(0, 95, 183);
     font-weight: bold;
 }
 
@@ -48,13 +48,13 @@ nav {
 nav li {
     list-style: none;
     display: inline-block;
-    padding: 0 5px;
+    padding: 0 8px;
     transition: .2s all ease-in-out;
 }
 
 nav a {
     text-decoration: none;
-    font-size: 1.5em;
+    font-size: 1.3em;
     color: rgb(60, 60, 60) ;
     font-family: Roboto, sans-serif;
 }
