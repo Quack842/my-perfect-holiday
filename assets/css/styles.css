@@ -158,7 +158,12 @@ nav li:hover {
     outline-offset: -10px;
 }
 
-.image-right .image-left:hover {
+.image-right:hover {
+    outline: 10px solid rgb(29, 49, 111, 0.8);
+    outline-offset: -10px;
+}
+
+.image-left:hover {
     outline: 10px solid rgb(29, 49, 111, 0.8);
     outline-offset: -10px;
 }
@@ -196,7 +201,7 @@ ul {
 /* Footer */
 footer {
     background-color: rgba(72, 72, 72, 0.722);
-    height: 300px;
+    height: 200px;
     font-family: Oswald, sans-serif;
     padding: 10px;
 }
@@ -207,5 +212,40 @@ footer h4 {
 
 footer ul {
     list-style: none;
+    font-size: 25px;
+    padding: 0;
+}
+
+footer li {
+    display: inline;
+    margin-right: 10px;
+}
+
+footer a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    transition: .2s all ease-in-out;
+}
+
+footer a:hover {
+    color: rgb(32, 59, 139);
+}
+
+#right {
+    text-align: right;
+}
+
+#footer-contact {
+    float: right;
+    display: grid;
+}
+
+#footer-contact li {
+    font-size: smaller;
+    font-family: Roboto, sans-serif;
+}
+
+footer h5 {
     text-align: center;
+    margin: 0 auto;
 }
