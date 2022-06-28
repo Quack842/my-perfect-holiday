@@ -4,6 +4,14 @@ body {
     margin: 0 auto;
 }
 
+/* Header styling */
+
+#logo-div hr {
+    width: 20%;
+    align-items: center;
+    margin: 0 auto;
+}
+
 header {
     margin: 0 auto;
     text-align: center;
@@ -11,7 +19,7 @@ header {
 
 header div {
     display: inline-block;
-    margin: 10px;
+    margin: 10px 0;
 }
 
 #africa-svg {
@@ -30,17 +38,26 @@ header div {
     margin: 0;
 }
 
+#logo-text p {
+    transition: .2s all ease-in-out;
+}
+
+#logo-text p:hover {
+    color: rgb(56, 34, 7);
+    cursor: pointer;
+}
+
 div p {
     margin: 0;
 }
 
 div span {
-    color: rgb(0, 95, 183);
+    color: rgb(29, 49, 111);
 }
 
 #active {
     text-decoration: underline;
-    color: rgb(0, 95, 183);
+    color: rgb(32, 59, 139);
     font-weight: bold;
 }
 
@@ -62,6 +79,10 @@ nav a {
     font-family: Roboto, sans-serif;
 }
 
+nav a:hover {
+    color: rgb(60, 60, 60) ;
+}
+
 nav li:hover {
     transform: scale(1.1);
 }
@@ -73,6 +94,7 @@ nav li:hover {
     width: 100%;
     overflow: hidden;
     position: relative;
+    box-shadow: 2px 2px 15px 5px rgba(0,0,0,0.37);
 }
 
 #cover-text, #cover-text h2 {
@@ -84,8 +106,21 @@ nav li:hover {
     height: 600px;
     width: 100%;
     background: url("../images/top-image.jpeg") no-repeat center center;
-    box-shadow: inset 2px 2px 15px 5px rgba(0,0,0,0.37);
+
+    animation-name: zoom-effect;
+    animation-duration: 8s;
+    animation-fill-mode: forwards;
     
+}
+
+/* Animation keyframes */
+@keyframes zoom-effect {
+    from {
+        transform: scale(1);
+    }
+    to {
+        transform: scale(1.1);
+    }
 }
 
 #cover-text {
@@ -95,7 +130,7 @@ nav li:hover {
     text-transform: uppercase;
     letter-spacing: 4px;
     width: 500px;
-    height: 150px;
+    height: 180px;
     padding: 10px;
     background-color: rgba(29, 49, 111, 0.736);
     left: 0;
@@ -103,4 +138,74 @@ nav li:hover {
     top: 40%;
     margin: auto;
     position: absolute;
+}
+/* Home Info section */
+.image-right {
+    width: 500px;
+    height: auto;
+    float: right;
+    border-radius: 10px;
+    outline: 10px solid rgb(29, 49, 111, 0.65);
+    outline-offset: -10px;
+}
+
+.image-left {
+    width: 500px;
+    height: auto;
+    float: left;
+    border-radius: 10px;
+    outline: 10px solid rgb(29, 49, 111, 0.65);
+    outline-offset: -10px;
+}
+
+.image-right .image-left:hover {
+    outline: 10px solid rgb(29, 49, 111, 0.8);
+    outline-offset: -10px;
+}
+
+.info-section {
+    margin: 20px;
+    padding-top: 30px;
+    font-family: Roboto, sans-serif;
+    vertical-align: middle;
+    right: 0;
+    left: 0;
+}
+
+.card {
+    width: 80%;
+    height: auto;
+}
+
+#info-hr {
+    width: 50%;
+    align-items: center;
+    margin: 0 auto;
+}
+
+ul {
+    list-style-image: url('../images/elephant-icon.svg');
+    font-weight: 400 !important;
+}
+
+#list {
+    font-weight: bold;
+    text-align: right;
+}
+
+/* Footer */
+footer {
+    background-color: rgba(72, 72, 72, 0.722);
+    height: 300px;
+    font-family: Oswald, sans-serif;
+    padding: 10px;
+}
+
+footer h4 {
+    text-transform: uppercase;
+}
+
+footer ul {
+    list-style: none;
+    text-align: center;
 }
