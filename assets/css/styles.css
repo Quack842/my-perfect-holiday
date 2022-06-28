@@ -11,10 +11,11 @@ header {
 
 header div {
     display: inline-block;
+    margin: 10px;
 }
 
 #africa-svg {
-    height: 55px;
+    height: 50px;
     width: auto;
 }
 
@@ -25,6 +26,8 @@ header div {
 
 #logo-text {
     text-align: left;
+    vertical-align: super;
+    margin: 0;
 }
 
 div p {
@@ -74,6 +77,7 @@ nav li:hover {
 
 #cover-text, #cover-text h2 {
     color: rgb(255, 255, 255);
+    margin: 0;
 }
 
 #top-image {
@@ -85,15 +89,18 @@ nav li:hover {
 }
 
 #cover-text {
+    text-align: center;
     font-size: 100%;
     font-family: oswald, sans-serif;
     text-transform: uppercase;
     letter-spacing: 4px;
-    width: 300px;
-    height: 200px;
-    padding: 40px 0 0 10px;
+    width: 500px;
+    height: 150px;
+    padding: 10px;
     background-color: rgba(29, 49, 111, 0.736);
-    bottom: 50%;
-    right: 50%;
+    left: 0;
+    right: 0;
+    top: 40%;
+    margin: auto;
     position: absolute;
 }
