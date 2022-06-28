@@ -80,19 +80,8 @@ nav li:hover {
     height: 600px;
     width: 100%;
     background: url("../images/top-image.jpeg") no-repeat center center;
+    box-shadow: inset 2px 2px 15px 5px rgba(0,0,0,0.37);
     
-    animation-name: top-zoom;
-    animation-duration: 5s;
-    animation-fill-mode: forwards;
-}
-
-@keyframes top-zoom {
-    from {
-        transform:  scale(1);
-    }
-    tp {
-        transform: scale(1.06);
-    }
 }
 
 #cover-text {
@@ -103,7 +92,7 @@ nav li:hover {
     width: 300px;
     height: 200px;
     padding: 40px 0 0 10px;
-    background-color: rgba(128, 66, 49, 0.736);
+    background-color: rgba(29, 49, 111, 0.736);
     bottom: 50%;
     right: 50%;
     position: absolute;
