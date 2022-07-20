@@ -214,7 +214,7 @@ section .activities-header {
 }
 
 .info-style {
-    margin: 30px;
+    margin: 20px;
 }
 
 .button-image {
@@ -224,30 +224,34 @@ section .activities-header {
 }
 
 .card-style, .front, .back {
-	width: 350px;
-	height: 350px;
+	width: 360px;
+	height: 360px;
 }
 .card-style {
 	margin: 10px;
     display: inline-block;
 }
-.front, .back {
+.front {
 	box-sizing: border-box;
 	padding: 2rem;
 	border-radius: 4px;
 	box-shadow: 0 1rem 2rem rgba(0, 0, 0, .25);
 
-	font-family: BlinkMacSystemFont, "Segoe UI", sans-serif;
 	font-size: 2rem;
 	color: #fff;
 	text-transform: uppercase;
 	text-align: center;
 }
-/* front side bg is green gradient */ .front {
-	background-image: linear-gradient(to right bottom, #2ecc71, #229955);
-}
-/* back side bg is orange gradient */ .back {
-	background-image: linear-gradient(to right bottom, #f1c40f, #e67e22);
+.back {
+	box-sizing: border-box;
+	padding: 2rem;
+	border-radius: 4px;
+	box-shadow: 0 1rem 2rem rgba(0, 0, 0, .25);
+    overflow: scroll;
+
+    font-size: medium;
+    color: black;
+
 }
 .front, .back {
 	position: absolute;
@@ -270,6 +274,8 @@ section .activities-header {
 .card-style {
 	perspective: 75rem;
 }
+
+
 /* Conact Us */
 .contact-form label {
     color: rgb(112, 58, 0);
