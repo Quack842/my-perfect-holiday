@@ -74,12 +74,12 @@ nav li {
 nav a {
     text-decoration: none;
     font-size: 1.3em;
-    color: rgb(60, 60, 60) ;
+    color: rgb(60, 60, 60);
     font-family: Roboto, sans-serif;
 }
 
 nav a:hover {
-    color: rgb(60, 60, 60) ;
+    color: rgb(60, 60, 60);
 }
 
 nav li:hover {
@@ -93,10 +93,11 @@ nav li:hover {
     width: 100%;
     overflow: hidden;
     position: relative;
-    box-shadow: 2px 2px 15px 5px rgba(0,0,0,0.37);
+    box-shadow: 2px 2px 15px 5px rgba(0, 0, 0, 0.37);
 }
 
-#cover-text, #cover-text h2 {
+#cover-text,
+#cover-text h2 {
     color: rgb(255, 255, 255);
     margin: 0;
 }
@@ -109,7 +110,7 @@ nav li:hover {
     animation-name: zoom-effect;
     animation-duration: 8s;
     animation-fill-mode: forwards;
-    
+
 }
 
 /* Animation keyframes */
@@ -117,6 +118,7 @@ nav li:hover {
     from {
         transform: scale(1);
     }
+
     to {
         transform: scale(1.1);
     }
@@ -138,6 +140,7 @@ nav li:hover {
     margin: auto;
     position: absolute;
 }
+
 /* Home Info section */
 .image-right {
     width: 500px;
@@ -203,11 +206,80 @@ section .activities-header {
     font-family: 'Oswald', sans-serif;
 }
 
+.button-style {
+    background-color: transparent;
+    border: none;
+    padding: 0;
+    margin: 0;
+}
+
+.info-style {
+    margin: 30px;
+}
+
+.button-image {
+    width: 400px;
+    border-radius: 20px;
+    margin: 30px;
+}
+
+.card-style, .front, .back {
+	width: 350px;
+	height: 350px;
+}
+.card-style {
+	margin: 10px;
+    display: inline-block;
+}
+.front, .back {
+	box-sizing: border-box;
+	padding: 2rem;
+	border-radius: 4px;
+	box-shadow: 0 1rem 2rem rgba(0, 0, 0, .25);
+
+	font-family: BlinkMacSystemFont, "Segoe UI", sans-serif;
+	font-size: 2rem;
+	color: #fff;
+	text-transform: uppercase;
+	text-align: center;
+}
+/* front side bg is green gradient */ .front {
+	background-image: linear-gradient(to right bottom, #2ecc71, #229955);
+}
+/* back side bg is orange gradient */ .back {
+	background-image: linear-gradient(to right bottom, #f1c40f, #e67e22);
+}
+.front, .back {
+	position: absolute;
+	top: 0;
+	left: 0;
+	backface-visibility: hidden;
+	overflow: hidden;
+	transition: transform .8s ease;
+}
+.back {
+	transform: rotateY(180deg);
+}
+.card-style:hover .front {
+	transform: rotateY(-180deg);
+}
+.card-style:hover .back {
+	transform: rotateY(0deg);
+}
+
+.card-style {
+	perspective: 75rem;
+}
 /* Conact Us */
+.contact-form label {
+    color: rgb(112, 58, 0);
+}
+
 .button-form {
     width: 100%;
     display: inline-block;
 }
+
 #submit {
     background-color: rgb(112, 58, 0);
     border: none;
@@ -232,7 +304,7 @@ section .activities-header {
 }
 
 #reset:hover {
-    
+
     transform: scale(1.02);
     background-color: rgba(41, 73, 170, 0.65);
 }
@@ -244,6 +316,7 @@ section .activities-header {
 
 .contact-style {
     width: 100%;
+    margin-bottom: 30px;
 }
 
 .contact-label {
