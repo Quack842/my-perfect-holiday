@@ -51,12 +51,12 @@ div p {
 }
 
 div span {
-    color: rgb(29, 49, 111);
+    color: #586750;
 }
 
 #active {
     text-decoration: underline;
-    color: rgb(32, 59, 139);
+    color: #47583E;
     font-weight: bold;
 }
 
@@ -201,6 +201,11 @@ ul {
     text-align: right;
 }
 
+section h1 {
+    font-family: 'Oswald', sans serif ;
+    text-align: center;
+}
+
 /* Activities Page */
 section .activities-header {
     text-align: center;
@@ -216,6 +221,10 @@ section .activities-header {
 
 .info-style {
     margin: 20px;
+}
+
+.info-style div {
+    text-align: center;
 }
 
 .button-image {
@@ -292,28 +301,13 @@ section .activities-header {
     border: none;
     border-radius: 10px;
     color: #fff;
-    width: 49%;
-    transition: .2s all ease-in-out;
-}
-
-#reset {
-    background-color: rgb(41, 74, 170);
-    border: none;
-    border-radius: 10px;
-    color: #fff;
-    width: 49%;
+    width: 100%;
     transition: .2s all ease-in-out;
 }
 
 #submit:hover {
     transform: scale(1.02);
     background-color: rgba(112, 58, 0, 0.657);
-}
-
-#reset:hover {
-
-    transform: scale(1.02);
-    background-color: rgba(41, 73, 170, 0.65);
 }
 
 .contact-list {
@@ -343,6 +337,17 @@ section .activities-header {
     height: 350px;
     border-radius: 10px;
 }
+
+.contact-list a {
+    color: #47583E;
+    text-decoration: none;
+}
+
+.contact-list a:hover {
+    color: #0a1d00;
+    text-decoration: underline;
+}
+
 
 /* Footer */
 footer {
