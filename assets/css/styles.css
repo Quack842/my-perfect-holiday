@@ -350,27 +350,34 @@ section .activities-header {
 
 
 /* Footer */
+
+.social-networks {
+    text-align: center;
+}
+
+.social-networks > li {
+    display: inline;
+}
+
+.social-networks i {
+    font-size: 200%;
+    margin: 1%;
+    padding: 2%;
+}
+
 footer {
     background-color: #724A1B;
     height: auto;
     font-family: Oswald, sans-serif;
     padding: 10px;
     color: black;
+    box-shadow: inset 0px 20px 7px -13px rgba(0,0,0,0.33);
 }
 
 footer h4 {
     text-transform: uppercase;
-}
-
-footer ul {
-    list-style: none;
-    font-size: 25px;
-    padding: 0;
-}
-
-footer li {
-    display: inline;
-    margin-right: 10px;
+    text-align: center;
+    padding-top: 10px;
 }
 
 footer a {
@@ -389,19 +396,6 @@ footer i {
 
 footer i:hover {
     transform: scale(1.1) rotate(30deg);
-}
-#right {
-    text-align: right;
-}
-
-#footer-contact {
-    float: right;
-    display: grid;
-}
-
-#footer-contact li {
-    font-size: smaller;
-    font-family: Roboto, sans-serif;
 }
 
 footer h5 {
