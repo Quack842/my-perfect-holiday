@@ -91,3 +91,12 @@ On the Contact Us Page, there are to panels, a left and a right panel. The left 
 [Back To Top](#my-perfect-holiday--safari) <br>
 [Back To Table Of Contents](#table-of-contents)
 
+## Existing Features
+<details>
+<summary>
+Navigation Bar
+</summary>
+ The Navigation bar is featured across all three pages and allows the user to navigate around the website using the Home, Activities and Contact Us links provided. The Navigation bar is identical on all three pages and this will allow for the user to navigate around with ease. The current page that is selected will be highlighted so the user will know on what page they currently are on. <br>
+
+ ![Navigation Bar](assets/images/navbar-image.png)
+</details>
