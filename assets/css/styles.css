@@ -142,6 +142,13 @@ nav li:hover {
     position: absolute;
 }
 
+@media only screen and (max-width: 532px)  {
+    #cover-text {
+        width: 100%;
+        text-align: center;
+    }
+}
+
 /* Home Info section */
 .image-right {
     width: 560px;
