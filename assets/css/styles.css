@@ -348,6 +348,12 @@ section .activities-header {
     text-decoration: underline;
 }
 
+#video-style {
+    padding: 0 40px;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
 
 /* Footer */
 
