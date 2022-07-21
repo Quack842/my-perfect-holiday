@@ -19,8 +19,11 @@ The Webiste can be viewed live by [clicking on this link!](https://quack842.gith
     * [User Goals](#user-goals)
     * [Color Scheme](#color-scheme)
     * [Typography](#typography)
+    * [Wireframes](#wireframes)
+2. [Features](#features)
 
 # User Experience (UX)
+[Back To Top](#my-perfect-holiday--safari) <br>
 [Back To Table Of Contents](#table-of-contents)
 
 My Perfect Holiday & Safari website is designed with the intent for the user to navigate and use the website with
@@ -48,4 +51,43 @@ The Main Color Scheme that was chosen for this website was based on the typical 
 
 The Main font that is used for this website is Roboto and the secondary font is Oswald. The font, sans-serif, is used as a back-up font for incase the user's browser does not supoort the main and secondary fonts. The website [Google Fonts](https://fonts.google.com/) was used to select and import the fonts.
 
-The website [Font Awesome](https://fontawesome.com/) was used for the icons that can be seen in the footer and on the Conact us page.
+The website [Font Awesome](https://fontawesome.com/) was used for the icons that can be seen in the footer and on the Conact Us page.
+
+## Wireframes
+
+The Application [Balsamiq](https://balsamiq.com/) was used to create the basic idea and layout for the My Perfect Holiday & Safari website as suggested by code institute.
+<details>
+    <summary>Simple Site Map</summary>
+    
+![Website Layout Main](assets/images/website-main-layout.png) <br>
+This Sitemap was design to get the basic layout and structure of the website.
+
+</details>
+<details>
+    <summary>Home Page</summary>
+    
+![Website Layout Main](assets/images/website-layout-home.png) <br>
+The Home Page is a simple page with information about the Travel Agency and what they can offer. In The original design, The About Page was included as a extra html page. It was suggested by my Mentor that it might be a better and cleaner idea to combine the Home and About Us page, I agreed to that suggestion and added the About Us Information below the Home Page Information.
+
+</details>
+<details>
+    <summary>Activities Page</summary>
+    
+![Website Layout Main](assets/images/website-layout-activities.png) <br>
+On the Activities Page, there are 5 cards that is presented and will flip around and reveal the related information when the card is clicked/hovered over.
+
+In the original design, the Hero image was displayed at the top of the Activities and Contact Us pages. My Mentor asked if the hero image was needed on the other pages as well and challenged me to find a way to show the relation to the pages without a hero image on every single page. I came to the conclution that having a shadow below the navigation bar will show the relation between the pages without the need of the hero image on each page.
+
+</details>
+<details>
+    <summary>Contact Us Page</summary>
+    
+![Website Layout Main](assets/images/website-layout-contact.png) <br>
+On the Contact Us Page, there are to panels, a left and a right panel. The left panel displays the Contact Form and the Right Panel Displays the Contact Information.
+</details>
+ <br>
+
+# Features
+[Back To Top](#my-perfect-holiday--safari) <br>
+[Back To Table Of Contents](#table-of-contents)
+
