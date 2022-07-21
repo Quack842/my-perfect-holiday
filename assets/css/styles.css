@@ -133,7 +133,7 @@ nav li:hover {
     width: 500px;
     height: 180px;
     padding: 10px;
-    background-color: rgba(29, 49, 111, 0.736);
+    background-color: #47583ece;
     left: 0;
     right: 0;
     top: 40%;
@@ -143,35 +143,36 @@ nav li:hover {
 
 /* Home Info section */
 .image-right {
-    width: 500px;
+    width: 560px;
     height: auto;
     float: right;
     border-radius: 10px;
-    outline: 10px solid rgb(29, 49, 111, 0.65);
+    outline: 10px solid #586750;
     outline-offset: -10px;
 }
 
 .image-left {
-    width: 500px;
+    width: 560px;
     height: auto;
     float: left;
     border-radius: 10px;
-    outline: 10px solid rgb(29, 49, 111, 0.65);
+    outline: 10px solid #586750;;
     outline-offset: -10px;
 }
 
 .image-right:hover {
-    outline: 10px solid rgb(29, 49, 111, 0.8);
+    outline: 10px solid #586750c9;
     outline-offset: -10px;
 }
 
 .image-left:hover {
-    outline: 10px solid rgb(29, 49, 111, 0.8);
+    outline: 10px solid #586750c9;
     outline-offset: -10px;
 }
 
 .info-section {
     margin: 20px;
+    padding: 30px 40px 30px 40px;
     padding-top: 30px;
     font-family: Roboto, sans-serif;
     vertical-align: middle;
@@ -345,10 +346,11 @@ section .activities-header {
 
 /* Footer */
 footer {
-    background-color: rgba(72, 72, 72, 0.722);
+    background-color: #724A1B;
     height: 200px;
     font-family: Oswald, sans-serif;
     padding: 10px;
+    color: black;
 }
 
 footer h4 {
@@ -373,9 +375,16 @@ footer a {
 }
 
 footer a:hover {
-    color: rgb(32, 59, 139);
+    color: #1e4808;
 }
 
+footer i {
+    transition: .3s all ease-in-out;
+}
+
+footer i:hover {
+    transform: scale(1.1) rotate(30deg);
+}
 #right {
     text-align: right;
 }
