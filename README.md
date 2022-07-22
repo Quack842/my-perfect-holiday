@@ -100,3 +100,30 @@ Navigation Bar
 
  ![Navigation Bar](assets/images/navbar-image.png)
 </details>
+<details>
+<summary>
+Landing Page
+</summary>
+ The landing page includes a hero image that is the first image the user will see when the website opens. On the image is a short text that briefly tells the user what to expect about the website. AS the user scrolls down, they will see more information about the Travel Agency and what to expect about the website. <br>
+
+ ![Main Hero Sample](assets/images/main-hero-image.png)
+</details>
+
+<details>
+<summary>
+Activities Page
+</summary>
+On the Activities page, the user will be able to see what kind of activities are availibe to help build the perfect holiday. There are about 5 flipcards and each one will have a picture on the front of the card and when the user hover over the card, it will flip around and reveal items related to the type of activities.
+  <br>
+
+ ![Activities Page](assets/images/activities-layout.png)
+</details>
+
+<details>
+<summary>
+Contact Us Page
+</summary>
+When the user go to the Contact Us Page, they will have two type of contact options. On the Left side of the page is a contact us Form that the user will be able to fill in and it will send the message to the Travel Agency. On The Right hand side of the website, there will be contact details that the user can use to contact the Travel Agency self. The map on the Contact Details shows the exact location and the map is interactive, and allows the user to zoom in, out and move it all about.
+  <br>
+<img src="assets/images/contact-us-form.png" width="325px"> <img src="assets/images/contact-us-details.png" width="300px">
+</details>
