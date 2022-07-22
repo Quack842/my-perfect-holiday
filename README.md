@@ -2,13 +2,13 @@
 
 ![My Perfect Holiday and Safari Responsive Image](assets/images/responsive-example.png)
 
-My Perfect Holiday & Safari is a company that prides itself in creating the best holiday experience one can imagine in and around Cape Town, South Africa. The agents you will be working with is professional and has traveled far and wide, and knows exactely what will suit your budget and travel needs.
+My Perfect Holiday & Safari is a company that prides itself in creating the best holiday experience one can imagine in and around Cape Town, South Africa. The agents you will be working with is professional and has travelled far and wide, and knows exactly what will suit your budget and travel needs.
 
 My Perfect Holiday and Safari is a website idea for a Travel Agency (My Perfect Holiday & Safari). 
 The purpose of this website is to advertise the company, My Perfect Holiday & Safari and to showcase the possible adventures and offers that the client
 can experience by using the services of this Travel Agency.
 
-The website design is inspired by the safari and all it's beauty.
+The website design is inspired by the safari and all its beauty.
 
 The Webiste can be viewed live by [clicking on this link!](https://quack842.github.io/my-perfect-holiday/)
 
@@ -21,6 +21,7 @@ The Webiste can be viewed live by [clicking on this link!](https://quack842.gith
     * [Typography](#typography)
     * [Wireframes](#wireframes)
 2. [Features](#features)
+2. [Technologies Used](#technologies-used)
 
 # User Experience (UX)
 [Back To Top](#my-perfect-holiday--safari) <br>
@@ -28,30 +29,30 @@ The Webiste can be viewed live by [clicking on this link!](https://quack842.gith
 
 My Perfect Holiday & Safari website is designed with the intent for the user to navigate and use the website with
 ease. 
-The Website is easily navigatable and has large text that will make it simple read.
+The Website is easily navigable and has large text that will make it simple to read.
 
 ## Project Goals
 
-The main Goal of My Perfect Holiday & Safari is to advertise the Travel Agency's services and the different available Activities, the Website has a African/Safari feel to it. This shows the customer that Agency is based in South Africa and can offer the best deals and experiences.
+The main Goal of My Perfect Holiday & Safari is to advertise the Travel Agency's services and the different available Activities, the Website has an African/Safari feel to it. This shows the customer that the Agency is based in South Africa and can offer the best deals and experiences.
 
 ## User Goals
 
-* The user will be able to naviagte easily throughout the site and inderstand all the contents that is provided.
+* The user will be able to navigate easily throughout the site and understand all the contents that is provided.
 * The user will find enough information about the Travel Agency and will also be able to contact them through a Contact Us Form that they can fill in 
 or the customer can contact the Travel Agency through the provided Contact Details.
 * The user will also be able to view the different Activities that are available for them to include in their perfect holiday bundle.
-* The user will also be able to access the website from any device with access to a browser i.e Smartphone, Tablet and/or a Computer and the website will be responsive to said device.
+* The user will also be able to access the website from any device with access to a browser, i.e Smartphone, Tablet and/or a Computer and the website will be responsive to said device.
 
 ## Color Scheme
 
-The Main Color Scheme that was chosen for this website was based on the typical color that would come to mind if one was to think of Africa or Safari. When designing the website, the main color #724A1B and #47583E came to mind. I used the website [Coolor](https://coolors.co/) to generate the complementary colors that will fit hand-in-hand with the main colors that was chosen.
+The Main Color Scheme that was chosen for this website was based on the typical color that would come to mind if one was to think of Africa or Safari. When designing the website, the main color #724A1B and #47583E came to mind. I used the website [Coolor](https://coolors.co/) to generate the complementary colors that will fit hand-in-hand with the main colors that were chosen.
 ![Main Color 1](assets/images/main-color-1.png) ![Main Color 2](assets/images/main-color-2.png)
 
 ## Typography
 
-The Main font that is used for this website is Roboto and the secondary font is Oswald. The font, sans-serif, is used as a back-up font for incase the user's browser does not supoort the main and secondary fonts. The website [Google Fonts](https://fonts.google.com/) was used to select and import the fonts.
+The Main font that is used for this website is Roboto and the secondary font is Oswald. The font, sans-serif, is used as a back-up font for in case the user's browser does not support the main and secondary fonts. The website [Google Fonts](https://fonts.google.com/) was used to select and import the fonts.
 
-The website [Font Awesome](https://fontawesome.com/) was used for the icons that can be seen in the footer and on the Conact Us page.
+The website [Font Awesome](https://fontawesome.com/) was used for the icons that can be seen in the footer and on the Contact Us page.
 
 ## Wireframes
 
@@ -60,30 +61,30 @@ The Application [Balsamiq](https://balsamiq.com/) was used to create the basic i
     <summary>Simple Site Map</summary>
     
 ![Website Layout Main](assets/images/website-main-layout.png) <br>
-This Sitemap was design to get the basic layout and structure of the website.
+This Sitemap was designed to get the basic layout and structure of the website.
 
 </details>
 <details>
     <summary>Home Page</summary>
     
 ![Website Layout Main](assets/images/website-layout-home.png) <br>
-The Home Page is a simple page with information about the Travel Agency and what they can offer. In The original design, The About Page was included as a extra html page. It was suggested by my Mentor that it might be a better and cleaner idea to combine the Home and About Us page, I agreed to that suggestion and added the About Us Information below the Home Page Information.
+The Home Page is a simple page with information about the Travel Agency and what they can offer. In The original design, The About Page was included as an extra html page. It was suggested by my Mentor that it might be a better and cleaner idea to combine the Home and About Us page, I agreed to that suggestion and added the About Us Information below the Home Page Information.
 
 </details>
 <details>
     <summary>Activities Page</summary>
     
 ![Website Layout Main](assets/images/website-layout-activities.png) <br>
-On the Activities Page, there are 5 cards that is presented and will flip around and reveal the related information when the card is clicked/hovered over.
+On the Activities Page, there are 5 cards that are presented and will flip around and reveal the related information when the card is clicked/hovered over.
 
-In the original design, the Hero image was displayed at the top of the Activities and Contact Us pages. My Mentor asked if the hero image was needed on the other pages as well and challenged me to find a way to show the relation to the pages without a hero image on every single page. I came to the conclution that having a shadow below the navigation bar will show the relation between the pages without the need of the hero image on each page.
+In the original design, the Hero image was displayed at the top of the Activities and Contact Us pages. My Mentor asked if the hero image was needed on the other pages as well and challenged me to find a way to show the relation to the pages without a hero image on every single page. I came to the conclusion that having a shadow below the navigation bar will show the relation between the pages without the need of the hero image on each page.
 
 </details>
 <details>
     <summary>Contact Us Page</summary>
     
 ![Website Layout Main](assets/images/website-layout-contact.png) <br>
-On the Contact Us Page, there are to panels, a left and a right panel. The left panel displays the Contact Form and the Right Panel Displays the Contact Information.
+On the Contact Us Page, there are two panels, a left and a right panel. The left panel displays the Contact Form and the Right Panel Displays the Contact Information.
 </details>
  <br>
 
@@ -113,7 +114,7 @@ Landing Page
 <summary>
 Activities Page
 </summary>
-On the Activities page, the user will be able to see what kind of activities are availibe to help build the perfect holiday. There are about 5 flipcards and each one will have a picture on the front of the card and when the user hover over the card, it will flip around and reveal items related to the type of activities.
+On the Activities page, the user will be able to see what kind of activities are available to help build the perfect holiday. There are about 5 flip cards and each one will have a picture on the front of the card and when the user hovers over the card, it will flip around and reveal items related to the type of activities.
   <br>
 
  ![Activities Page](assets/images/activities-layout.png)
@@ -123,7 +124,71 @@ On the Activities page, the user will be able to see what kind of activities are
 <summary>
 Contact Us Page
 </summary>
-When the user go to the Contact Us Page, they will have two type of contact options. On the Left side of the page is a contact us Form that the user will be able to fill in and it will send the message to the Travel Agency. On The Right hand side of the website, there will be contact details that the user can use to contact the Travel Agency self. The map on the Contact Details shows the exact location and the map is interactive, and allows the user to zoom in, out and move it all about.
+When the user go to the Contact Us Page, they will have two types of contact options. On the Left side of the page is a contact us Form that the user will be able to fill in and it will send the message to the Travel Agency. On The Right hand side of the website, there will be contact details that the user can use to contact the Travel Agency self. The map on the Contact Details shows the exact location and the map is interactive, and allows the user to zoom in, out and move it all about.
   <br>
 <img src="assets/images/contact-us-form.png" width="325px"> <img src="assets/images/contact-us-details.png" width="300px">
 </details>
+
+<details>
+<summary>
+Footer
+</summary>
+The Footer has a simple design that shows the social tags. Each tag links to the relative social media page and all links will open in a new tab and keep the current website open as well, this will make it easy for the user to navigate and the user would not have to worry about navigating back to the website. There is also an on hover effect on the social media links, it will change color, rotate and grow bigger.
+  <br>
+
+  ![Footer](assets/images/footer.png)
+</details>
+
+<br>
+
+# Technologies Used
+
+[Back To Top](#my-perfect-holiday--safari) <br>
+[Back To Table Of Contents](#table-of-contents)
+
+## Languages Used
+* [HTML5](https://en.wikipedia.org/wiki/HTML5) <br>
+Used for providing the core structure of the website pages. <br>
+
+* [CSS3](https://en.wikipedia.org/wiki/CSS#CSS_3) <br>
+Used for styling the HTML documents <br>
+
+* [JavaScript](https://en.wikipedia.org/wiki/JavaScript) <br>
+Used to integrate specific features and create dynamic and interactive web content.
+
+## Frameworks, Libraries, Websites and Programs Used
+* [Google Fonts](https://fonts.google.com/) <br>
+This Website was used to help choose the perfect fonts that will work together and to import the fonts onto the website. <br>
+
+* [Font Awesome](https://fontawesome.com/) <br>
+This website helped with using icons to give the website a betting user experience. <br>
+
+* [GitPod](https://www.gitpod.io/) <br>
+This website was used as a developers platform for writing code, committing the code and to push it to Github. <br>
+
+* [Github](https://github.com/) <br>
+This website is used to store code and make it possible for developers to commit and push code. This website also allows the Developer to share code with other developers.
+
+* [Balsamiq](https://balsamiq.com/) <br>
+This application was suggested by Code Institute to use for planning and creating a wireframe for the website. <br>
+
+* [Reverso](https://www.reverso.net/spell-checker/english-spelling-grammar/) <br>
+I used this website to help with the spelling and grammer.
+
+* [Unsplash](https://unsplash.com/) <br>
+All of the Images used on the website is from this website. <br>
+
+* [Bootstrap](https://getbootstrap.com/) <br>
+This website is a well known and used website by developers to help with coding and styling.
+
+* [Box Shadow Generator](https://html-css-js.com/css/generator/box-shadow/) <br>
+I used this website to help with creating a box shadow with certain specifications.
+
+* [Maps Generator](https://www.maps.ie/create-google-map/) <br>
+When creating the Contact Details, I used this website to help generate the location on a map and to create a iframe so the user can interact with the map.
+
+* [Kruger Shalati Website](https://www.krugershalati.com/about-us/) <br>
+The details for the Kruger Shalati Hotel was found under their About Us page on this website. <br>
+
+* [Color Picker](https://coolors.co/) <br>
+This website helped make it easier choosing complementary color scheme for the website.
