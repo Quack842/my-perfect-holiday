@@ -304,6 +304,10 @@ section .activities-header {
     perspective: 75rem;
 }
 
+#activities-iframe {
+    width: 100%;
+    height: 400px;
+}
 
 /* Conact Us */
 .contact-form label {

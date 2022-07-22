@@ -21,7 +21,10 @@ The Webiste can be viewed live by [clicking on this link!](https://quack842.gith
     * [Typography](#typography)
     * [Wireframes](#wireframes)
 2. [Features](#features)
-2. [Technologies Used](#technologies-used)
+3. [Technologies Used](#technologies-used)
+    * [Languages](#languages-used)
+    * [Frameworkds, Libraries, Website and Programs](#frameworks-libraries-websites-and-programs-used)
+4. [Testing](#testing)
 
 # User Experience (UX)
 [Back To Top](#my-perfect-holiday--safari) <br>
@@ -45,7 +48,7 @@ or the customer can contact the Travel Agency through the provided Contact Detai
 
 ## Color Scheme
 
-The Main Color Scheme that was chosen for this website was based on the typical color that would come to mind if one was to think of Africa or Safari. When designing the website, the main color #724A1B and #47583E came to mind. I used the website [Coolor](https://coolors.co/) to generate the complementary colors that will fit hand-in-hand with the main colors that were chosen.
+The Main Color Scheme that was chosen for this website was based on the typical color that would come to mind if one was to think of Africa or Safari. When designing the website, the main color #724A1B and #47583E came to mind. I used the website [Coolor](https://coolors.co/) to generate the complementary colors that will fit hand-in-hand with the main colors that were chosen. <br>
 ![Main Color 1](assets/images/main-color-1.png) ![Main Color 2](assets/images/main-color-2.png)
 
 ## Typography
@@ -191,4 +194,20 @@ When creating the Contact Details, I used this website to help generate the loca
 The details for the Kruger Shalati Hotel was found under their About Us page on this website. <br>
 
 * [Color Picker](https://coolors.co/) <br>
-This website helped make it easier choosing complementary color scheme for the website.
+This website helped make it easier choosing complementary color scheme for the website. <br>
+
+# Testing
+
+[Back To Top](#my-perfect-holiday--safari) <br>
+[Back To Table Of Contents](#table-of-contents) <br>
+
+## Responsive Test
+
+I used [Responsive Design Checker](https://responsivedesignchecker.com/) to test if my website is responsive on all devices. Chrome DevTools was also used to check for responsiveness 
+
+## Validating The Code
+To validate the HTML on the website, I used [W3C Validator](https://validator.w3.org/#validate_by_input).
+All the HTML Pages were tested and no errors was shown.
+
+To validate the CSS code one the website, I used [Jigsaw Validator](https://jigsaw.w3.org/css-validator/#validate_by_input).
+The CSS Page was tested and there were no errors
