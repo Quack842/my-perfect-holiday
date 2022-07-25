@@ -25,6 +25,12 @@ The Webiste can be viewed live by [clicking on this link!](https://quack842.gith
     * [Languages](#languages-used)
     * [Frameworkds, Libraries, Website and Programs](#frameworks-libraries-websites-and-programs-used)
 4. [Testing](#testing)
+    * [Responsive Test](#responsive-test)
+    * [Validating The Code](#validating-the-code)
+    * [Accessibility](#accessibility)
+5. [Deployment](#deployment)
+6. [Credits](#credits)
+7. [End Product](#end-product)
 
 # User Experience (UX)
 [Back To Top](#my-perfect-holiday--safari) <br>
@@ -196,6 +202,12 @@ The details for the Kruger Shalati Hotel was found under their About Us page on 
 * [Color Picker](https://coolors.co/) <br>
 This website helped make it easier choosing complementary color scheme for the website. <br>
 
+* [CSS Gradient](https://cssgradient.io/) <br>
+Used this website to generate a gradient color into code that can be used in HTML5/CSS3. <br>
+
+* [CorelDraw App](https://www.coreldraw.com/en/?link=wm) <br>
+This App was used to reduse the size of the images.
+
 # Testing
 
 [Back To Top](#my-perfect-holiday--safari) <br>
@@ -207,7 +219,119 @@ I used [Responsive Design Checker](https://responsivedesignchecker.com/) to test
 
 ## Validating The Code
 To validate the HTML on the website, I used [W3C Validator](https://validator.w3.org/#validate_by_input).
-All the HTML Pages were tested and no errors was shown.
+<details>
+    <summary>
+        Index Page Validator
+    </summary>
+
+![index.html Validator](assets/images/index-validator.png)
+</details>
+
+<details>
+    <summary>
+        Activities Page Validator
+    </summary>
+
+![activities.html Validator](assets/images/activities-validator.png)
+</details>
+
+<details>
+    <summary>
+        Contact Us Page Validator
+    </summary>
+
+![contact-us.html Validator](assets/images/contact-validator.png)
+</details>
+<br>
 
 To validate the CSS code one the website, I used [Jigsaw Validator](https://jigsaw.w3.org/css-validator/#validate_by_input).
 The CSS Page was tested and there were no errors
+
+<details>
+    <summary>
+        Styles Page Validator
+    </summary>
+
+![contact-us.html Validator](assets/images/styles-validator.png)
+</details>
+<br>
+
+## Accessibility
+
+The Lighthouse feature on Chrome DevTools was used to test the Accessibility of the three pages:
+
+<details>
+    <summary>
+        Home Page
+    </summary>
+
+![contact-us.html Validator](assets/images/index-lighthouse.png)
+</details>
+
+<details>
+    <summary>
+        Activities Page
+    </summary>
+
+![contact-us.html Validator](assets/images/activities-lighthouse.png)
+</details>
+
+<details>
+    <summary>
+        Contact Page
+    </summary>
+
+![contact-us.html Validator](assets/images/contact-lighthouse.png)
+</details>
+<br>
+
+# Deployment
+
+[Back To Top](#my-perfect-holiday--safari) <br>
+[Back To Table Of Contents](#table-of-contents) <br>
+
+[GitPod](https://gitpod.io/) Was used for the development of the website. <br>
+[GitHub](https://github.com/) was used to Host and Deploy the the website.
+The following steps was taking to Deploy the website via Github:
+
+1. Creating the Repository
+    * Log into Github.
+    * Locate the template that was provided by Code Institute. [Template](https://github.com/Code-Institute-Org/gitpod-full-template)
+    * Click on the "Use This Template" on the top of the Repository.
+    * Enter the name that was chosen for the website.
+    * Clicked on the "Create repository from Template" button.
+2. Deploying the Website.
+    * In the GitHub repository, click on the "Settings" Tab.
+    * Navigate to the "Pages" subsection from the left hand pannel.
+    * Select the "main" branch and select the "Save" button.
+    * Now a link has been generated for the Live Website.
+<br>
+
+# Credits
+
+[Back To Top](#my-perfect-holiday--safari) <br>
+[Back To Table Of Contents](#table-of-contents) <br>
+
+When creating the README File, multiple examples was used from other students to help with creating this README file.
+
+### Suggested by my mentor
+* [iKlevvv](https://github.com/iKelvvv/MS1)
+* [Josswe26](https://github.com/josswe26/pura-vida-spa)
+
+### Code Institute
+* [Code Institute README](https://github.com/Code-Institute-Solutions/readme-template) 
+
+### Fellow Slack Students
+* [Dragon-fire-fly](https://github.com/dragon-fire-fly/venom/blob/main/README.md#testing)
+
+## Codepen
+CodePen is a social development environment for front-end designers and developers. Fellow Front-End Developers can use this website to help with certain code and features. <br>
+The following code were used as inspiration with some of the features on the website: <br>
+
+[Card Flip Feature](https://codepen.io/edeesims/pen/wvpYWW) <br>
+[Back to top button on home page](https://codepen.io/JavaScriptJunkie/pen/pPRooV)
+
+[Unsplash](https://unsplash.com/) <br>
+All of the Images used on the website is from the website, Unsplash. <br>
+<br>
+

@@ -113,7 +113,7 @@ nav li:hover {
 #top-image {
     height: 600px;
     width: 100%;
-    background: url("../images/top-image.jpeg") no-repeat center center;
+    background: url("../images/top-image.jpg") no-repeat center center;
 
     animation-name: zoom-effect;
     animation-duration: 8s;
