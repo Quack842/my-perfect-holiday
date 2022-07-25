@@ -42,6 +42,13 @@ header div {
     transition: .2s all ease-in-out;
 }
 
+@media only screen and (max-width: 360px)  {
+    
+    #logo-text {
+        font-size: 1rem;
+    }
+}
+
 #logo-text p:hover {
     color: rgb(56, 34, 7);
     cursor: pointer;
@@ -142,12 +149,26 @@ nav li:hover {
     position: absolute;
 }
 
+.home-ul {
+    font-size: 25px;
+}
+
 @media only screen and (max-width: 532px)  {
+    
     #cover-text {
         width: 100%;
         text-align: center;
     }
+    /*
+    .home-ul {
+        font-size: 100%;
+    }
+    .info-section h3 {
+        font-size: 100%;
+    }
+    */
 }
+
 
 /* Home Info section */
 .image-right {
@@ -307,6 +328,13 @@ section .activities-header {
 #activities-iframe {
     width: 100%;
     height: 400px;
+}
+
+@media only screen and (max-width: 425px) {
+    .card-style {
+        width: 100%;
+        margin: 0;
+    }
 }
 
 /* Conact Us */
