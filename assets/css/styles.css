@@ -159,14 +159,6 @@ nav li:hover {
         width: 100%;
         text-align: center;
     }
-    /*
-    .home-ul {
-        font-size: 100%;
-    }
-    .info-section h3 {
-        font-size: 100%;
-    }
-    */
 }
 
 
@@ -208,6 +200,17 @@ nav li:hover {
     vertical-align: middle;
     right: 0;
     left: 0;
+}
+
+@media only screen and (max-width: 460px)  {
+    
+    .info-section {
+        padding: 0;
+        font-size: 100%;
+    }
+    .home-ul {
+        font-size: 100%;
+    }
 }
 
 .card {
@@ -334,6 +337,9 @@ section .activities-header {
     .card-style {
         width: 100%;
         margin: 0;
+    }
+    .front, .back {
+        width: 100%;
     }
 }
 
