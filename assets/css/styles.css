@@ -354,17 +354,27 @@ section .activities-header {
 }
 
 #submit {
-    background-color: rgb(112, 58, 0);
+    background-color: #703a00;
     border: none;
-    border-radius: 10px;
+    border-radius: 20px;
     color: #fff;
-    width: 100%;
+    width: 200px;
+    height: 50px;
+    background-size: 300% 100%;
     transition: .2s all ease-in-out;
 }
 
 #submit:hover {
-    transform: scale(1.02);
-    background-color: rgba(112, 58, 0, 0.657);
+    transition: all .4s ease-in-out;
+    background-position: 100% 0;
+}
+
+#submit:focus {
+    outline: none;
+}
+.submit-color {
+    background: linear-gradient(90deg, #703a00 0%, #1e4808 100%);
+    box-shadow: 0 4px 15px 0 #6e4700;
 }
 
 .contact-list {
@@ -378,7 +388,7 @@ section .activities-header {
 }
 
 .contact-label {
-    color: rgb(110, 71, 0);
+    color: #6e4700;
     font-weight: 800;
 }
 
