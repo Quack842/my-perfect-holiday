@@ -106,22 +106,47 @@ On the Contact Us Page, there are two panels, a left and a right panel. The left
 <details>
     <summary>Navigation Bar - All Pages</summary>
     When the user hover over the 3 different links, the links will grow. When the user click on the link, the page will change to the corresponding page and the link will change color to indicate that said page is currently active. 
+   
+
+https://user-images.githubusercontent.com/80696922/181263648-ad7f24d6-144b-4e07-b3e0-cf370d31a701.mp4
+
+
 </details>     
 <details>
     <summary>Back To Top Button - Home Page</summary>
     This button will appear when the user scroll past a certain point. When the user click on this button, they will be taking back to the top of the home page. 
+   
+
+https://user-images.githubusercontent.com/80696922/181264734-44541f18-3427-4914-a886-1ff5dceb5093.mp4
+
+
 </details>     
 <details>
     <summary>Flip Cards - Activities Page</summary>
     When the user hover/click on the card, the card will flip reavealing the corresponding details.
+   
+
+https://user-images.githubusercontent.com/80696922/181264782-4af08b0c-1cfe-4340-9229-5c505d463266.mp4
+
+
 </details>    
 <details>
     <summary>Interactive Map - Contact Page</summary>
     The user will be able to interact with the map (Just like how one would be able to interact with google maps) on the contact us page.
+   
+
+https://user-images.githubusercontent.com/80696922/181264856-7c22e2df-3e74-44ec-a12d-01e829fd64a6.mp4
+
+
 </details>    
 <details>
     <summary>Footer - All Pages</summary>
     The footer has a hover effect on the social links and when a user hover over the links, it will grow, rotate and change color.
+   
+
+https://user-images.githubusercontent.com/80696922/181264877-c4883a5d-d3ae-4f4c-a887-0a5177855889.mp4
+
+
 </details>
 <br>
 
