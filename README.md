@@ -76,14 +76,14 @@ This Sitemap was designed to get the basic layout and structure of the website.
 <details>
     <summary>Home Page</summary>
     
-![Website Layout Main](assets/images/website-layout-home.png) <br>
+![Website Layout Home](assets/images/website-layout-home.png) <br>
 The Home Page is a simple page with information about the Travel Agency and what they can offer. In The original design, The About Page was included as an extra html page. It was suggested by my Mentor that it might be a better and cleaner idea to combine the Home and About Us page, I agreed to that suggestion and added the About Us Information below the Home Page Information.
 
 </details>
 <details>
     <summary>Activities Page</summary>
     
-![Website Layout Main](assets/images/website-layout-activities.png) <br>
+![Website Layout Activites](assets/images/website-layout-activities.png) <br>
 On the Activities Page, there are 5 cards that are presented and will flip around and reveal the related information when the card is clicked/hovered over.
 
 In the original design, the Hero image was displayed at the top of the Activities and Contact Us pages. My Mentor asked if the hero image was needed on the other pages as well and challenged me to find a way to show the relation to the pages without a hero image on every single page. I came to the conclusion that having a shadow below the navigation bar will show the relation between the pages without the need of the hero image on each page.
@@ -92,7 +92,7 @@ In the original design, the Hero image was displayed at the top of the Activitie
 <details>
     <summary>Contact Us Page</summary>
     
-![Website Layout Main](assets/images/website-layout-contact.png) <br>
+![Website Layout Contact](assets/images/website-layout-contact.png) <br>
 On the Contact Us Page, there are two panels, a left and a right panel. The left panel displays the Contact Form and the Right Panel Displays the Contact Information.
 </details>
  <br>
@@ -102,52 +102,23 @@ On the Contact Us Page, there are two panels, a left and a right panel. The left
 [Back To Table Of Contents](#table-of-contents)
 
 ## Existing Features
+    
 <details>
-<summary>
-Navigation Bar
-</summary>
- The Navigation bar is featured across all three pages and allows the user to navigate around the website using the Home, Activities and Contact Us links provided. The Navigation bar is identical on all three pages and this will allow for the user to navigate around with ease. The current page that is selected will be highlighted so the user will know on what page they currently are on. <br>
-
- ![Navigation Bar](assets/images/navbar-image.png)
-</details>
+    <summary>Navigation Bar - All Pages</summary>
+    When the user hover over the 3 different links, the links will grow. When the user click on the link, the page will change to the corresponding page and the link will change color to indicate that said page is currently active. 
+</details>    
 <details>
-<summary>
-Landing Page
-</summary>
- The landing page includes a hero image that is the first image the user will see when the website opens. On the image is a short text that briefly tells the user what to expect about the website. AS the user scrolls down, they will see more information about the Travel Agency and what to expect about the website. <br>
-
- ![Main Hero Sample](assets/images/main-hero-image.png)
-</details>
-
+    <summary>Flip Cards - Activities Page</summary>
+    When the user hover/click on the card, the card will flip reavealing the corresponding details.
+</details>    
 <details>
-<summary>
-Activities Page
-</summary>
-On the Activities page, the user will be able to see what kind of activities are available to help build the perfect holiday. There are about 5 flip cards and each one will have a picture on the front of the card and when the user hovers over the card, it will flip around and reveal items related to the type of activities.
-  <br>
-
- ![Activities Page](assets/images/activities-layout.png)
-</details>
-
+    <summary>Interactive Map - Contact Page</summary>
+    The user will be able to interact with the map (Just like how one would be able to interact with google maps) on the contact us page.
+</details>    
 <details>
-<summary>
-Contact Us Page
-</summary>
-When the user go to the Contact Us Page, they will have two types of contact options. On the Left side of the page is a contact us Form that the user will be able to fill in and it will send the message to the Travel Agency. On The Right hand side of the website, there will be contact details that the user can use to contact the Travel Agency self. The map on the Contact Details shows the exact location and the map is interactive, and allows the user to zoom in, out and move it all about.
-  <br>
-<img src="assets/images/contact-us-form.png" width="325px"> <img src="assets/images/contact-us-details.png" width="300px">
+    <summary>Footer - All Pages</summary>
+    The footer has a hover effect on the social links and when a user hover over the links, it will grow, rotate and change color.
 </details>
-
-<details>
-<summary>
-Footer
-</summary>
-The Footer has a simple design that shows the social tags. Each tag links to the relative social media page and all links will open in a new tab and keep the current website open as well, this will make it easy for the user to navigate and the user would not have to worry about navigating back to the website. There is also an on hover effect on the social media links, it will change color, rotate and grow bigger.
-  <br>
-
-  ![Footer](assets/images/footer.png)
-</details>
-
 <br>
 
 # Technologies Used
@@ -334,4 +305,56 @@ The following code were used as inspiration with some of the features on the web
 [Unsplash](https://unsplash.com/) <br>
 All of the Images used on the website is from the website, Unsplash. <br>
 <br>
+
+# End Product
+
+[Back To Top](#my-perfect-holiday--safari) <br>
+[Back To Table Of Contents](#table-of-contents) <br>
+
+<details>
+<summary>
+Navigation Bar
+</summary>
+ The Navigation bar is featured across all three pages and allows the user to navigate around the website using the Home, Activities and Contact Us links provided. The Navigation bar is identical on all three pages and this will allow for the user to navigate around with ease. The current page that is selected will be highlighted so the user will know on what page they currently are on. <br>
+
+ ![Navigation Bar](assets/images/navbar-image.png)
+</details>
+<details>
+<summary>
+Landing Page
+</summary>
+ The landing page includes a hero image that is the first image the user will see when the website opens. On the image is a short text that briefly tells the user what to expect about the website. AS the user scrolls down, they will see more information about the Travel Agency and what to expect about the website. <br>
+
+ ![Main Hero Sample](assets/images/main-hero-image.png)
+</details>
+
+<details>
+<summary>
+Activities Page
+</summary>
+On the Activities page, the user will be able to see what kind of activities are available to help build the perfect holiday. There are about 5 flip cards and each one will have a picture on the front of the card and when the user hovers over the card, it will flip around and reveal items related to the type of activities.
+  <br>
+
+ ![Activities Page](assets/images/activities-layout.png)
+</details>
+
+<details>
+<summary>
+Contact Us Page
+</summary>
+When the user go to the Contact Us Page, they will have two types of contact options. On the Left side of the page is a contact us Form that the user will be able to fill in and it will send the message to the Travel Agency. On The Right hand side of the website, there will be contact details that the user can use to contact the Travel Agency self. The map on the Contact Details shows the exact location and the map is interactive, and allows the user to zoom in, out and move it all about.
+  <br>
+<img src="assets/images/contact-us-form.png" width="325px"> <img src="assets/images/contact-us-details.png" width="300px">
+</details>
+
+<details>
+<summary>
+Footer
+</summary>
+The Footer has a simple design that shows the social tags. Each tag links to the relative social media page and all links will open in a new tab and keep the current website open as well, this will make it easy for the user to navigate and the user would not have to worry about navigating back to the website. There is also an on hover effect on the social media links, it will change color, rotate and grow bigger.
+  <br>
+
+  ![Footer](assets/images/footer.png)
+</details>
+
 
