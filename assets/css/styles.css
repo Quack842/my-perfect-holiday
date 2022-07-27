@@ -457,6 +457,13 @@ section .activities-header {
     .button-form {
         text-align: center;
     }
+    .contact-details {
+        font-size: x-large;
+        margin-bottom: 20px;
+    }
+    .contact-label {
+        font-size: x-large;
+    }
 }
 
 /* Footer */
