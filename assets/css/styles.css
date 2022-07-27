@@ -452,6 +452,13 @@ section .activities-header {
   color: #705732a5;
 }
 
+/* Media Query for Contact Page */
+@media only screen and (max-width: 425px) {
+    .button-form {
+        text-align: center;
+    }
+}
+
 /* Footer */
 
 .social-networks {
