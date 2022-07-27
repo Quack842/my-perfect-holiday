@@ -106,7 +106,11 @@ On the Contact Us Page, there are two panels, a left and a right panel. The left
 <details>
     <summary>Navigation Bar - All Pages</summary>
     When the user hover over the 3 different links, the links will grow. When the user click on the link, the page will change to the corresponding page and the link will change color to indicate that said page is currently active. 
-</details>    
+</details>     
+<details>
+    <summary>Back To Top Button - Home Page</summary>
+    This button will appear when the user scroll past a certain point. When the user click on this button, they will be taking back to the top of the home page. 
+</details>     
 <details>
     <summary>Flip Cards - Activities Page</summary>
     When the user hover/click on the card, the card will flip reavealing the corresponding details.
